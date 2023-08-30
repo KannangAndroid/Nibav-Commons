@@ -13,4 +13,6 @@ dependencyResolutionManagement {
         maven { setUrl("https://jitpack.io") }
     }
 }
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
